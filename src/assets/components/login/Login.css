@@ -1,0 +1,29 @@
+
+.btnLogin = {
+    background: #525252;
+    border: 0;
+    borderRadius: 25px;
+    color: #525252;
+    fontFamily: Ubuntu;
+    fontSize: 18px;
+    fontWeight: bold;
+    marginTop: 15%;
+    padding: 8px 0;
+    textAlign: center;
+    width: 180px;
+}
+
+
+.inputLogin = {
+    width: 350px;
+    height: 30px;
+    marginTop : 4%;
+    borderRadius: 15px;
+    background: #FFFFFF;
+    fontFamily: Roboto;
+    fontStyle: italic;
+    fontWeight: bold;
+    color: #4b4949;
+    textAlign: center;
+    fontSize: 22px;
+}
