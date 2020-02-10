@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, {Component, useState } from 'react';
 import 'firebase/auth';
 import { useFirebaseApp, useUser } from 'reactfire';
 import './Login.css';
