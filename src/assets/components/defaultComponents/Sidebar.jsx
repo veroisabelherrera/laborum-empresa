@@ -1,50 +1,40 @@
 import React from 'react';
-import starIcon from '../../img/starVector.svg';
+import StarIcon from '../../img/starVector.svg';
 
 import '../../../App.css';
 import './Sidebar.css';
 
 function Sidebar() {
   return (
-    <div className="sidebar col-3">
-      <div>
-        <button type="button" className="btn-second-little">Crea un Nuevo Aviso</button>
+    <React.Fragment>
+      <div className="logo">
+        <p>Logo</p>
       </div>
-      <nav>
-        <ul>
-          <li>
-            <a>
-              <img src={starIcon} alt="star" />
-              Inicio
-            </a>
-          </li>
-          <li>
-            <a>
-              <img src={starIcon} alt="star" />
-              Perfil
-            </a>
-          </li>
-          <li>
-            <a>
-              <img src={starIcon} alt="star" />
-              Gestión de Avisos
-            </a>
-          </li>
-          <li>
-            <a>
-              <img src={starIcon} alt="star" />
-              Vinculación de Empresas
-            </a>
-          </li>
-          <li>
-            <a>
-              <img src={starIcon} alt="star" />
-              Postulantes
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+      <div className="sidebar">
+        <nav>
+          <button type="button" className="btn-second-little">
+            Crea un Nuevo Aviso
+          </button>
+          <ul>
+            <li>
+              <a>Inicio</a>
+            </li>
+            <li>
+              <a>Perfil</a>
+            </li>
+            <li>
+              <a>Gestión de Avisos</a>
+            </li>
+            <li>
+              <a>Vinculación de Empresas</a>
+            </li>
+            <li>
+              <a>Postulantes</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </React.Fragment>
   );
 }
 
