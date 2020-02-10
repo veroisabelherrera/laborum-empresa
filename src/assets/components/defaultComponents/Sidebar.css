@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Mada&display=swap");
+* {
+  font-family: "Mada";
+}
+
+.sidebar {
+  font-family: Mada;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  justify-content: center;
+  background: #2a303a;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  bottom: 0%;
+  color: #cef8ed;
+  height: 800px;
+}
+nav img {
+  height: 14px;
+  width: auto;
+  margin-right: 10px;
+}
+nav li:hover{
+  color: #FFBD3A;
+}
+.sidebar img:hover{
+  fill: #FFBD3A;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+nav li {
+  list-style: none;
+  padding: 2em 0;
+  margin-left: 5%;
+}
+
+.btn-second-little{
+  color: #00BCA0;
+  font-style: normal;
+  font-weight: bold;
+  background-color: transparent;
+  border: solid 1px #00BCA0;
+  border-radius: 5px;
+}
