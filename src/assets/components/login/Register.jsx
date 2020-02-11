@@ -10,8 +10,8 @@ export default () => {
   const firebase = useFirebaseApp();
   const user = useUser();
 
-  const login = async () => {
-    await firebase.auth().signInWithEmailAndPassword(email, password);
+  const register = async () => {
+    await firebase.auth().createUserWithEmailAndPassword(email, password);
   };
 
   const logout = async () => {
@@ -25,7 +25,7 @@ export default () => {
         !user
         && (
         <div>
-          <h3 className="login-h3">Inicio sesión</h3>
+          <h3 className="login-h3">Crear cuenta</h3>
           <div>
             <h5>Correo</h5>
             <input type="email" id="email" placeholder="Escribe tu correo" className="input-login" onChange={(event) => setEmail(event.target.value)} />
@@ -36,7 +36,7 @@ export default () => {
             <h6 className="h6">Recuérdame</h6>
             <h6 className="h6"><a className="link-login">¿Olvidaste tu contraseña?</a></h6>
           </div>
-          <button type="button" onClick={login} className="btn-login">Iniciar sesión</button>
+          <button type="button" onClick={register} className="btn-login">Crear cuenta</button>
         </div>
         )
       }
