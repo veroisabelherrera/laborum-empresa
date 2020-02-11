@@ -8,7 +8,10 @@ function App() {
 
   return (
     <div className="App">
-      { user && <p>Bienvenidx: {user.email} </p> }
+      { user && <p>
+        Bienvenidx:
+        {user.email}
+        </p>}
       <Login />
     </div>
   );
