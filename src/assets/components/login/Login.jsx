@@ -10,10 +10,6 @@ export default () => {
   const firebase = useFirebaseApp();
   const user = useUser();
 
-  const submit = async () => {
-    await firebase.auth().createUserWithEmailAndPassword(email, password);
-  };
-
   const login = async () => {
     await firebase.auth().signInWithEmailAndPassword(email, password);
   };
@@ -39,7 +35,6 @@ export default () => {
             <h6 className="h6">Recuérdame</h6>
             <h6 className="h6"><a className="link-login">¿Olvidaste tu contraseña?</a></h6>
           </div>
-          <button onClick={submit} className="btn-login">Crear cuenta</button>
           <button onClick={login} className="btn-login">Iniciar sesión</button>
         </div>
       }
