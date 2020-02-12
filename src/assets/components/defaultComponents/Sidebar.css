@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Mada&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Mada:400,500,600,700&display=swap');
 * {
   font-family: "Mada";
 }
@@ -17,7 +17,7 @@
   top: 2%;
   bottom: 0%;
   color: #cef8ed;
-  height: 800px;
+  height: 100%;
   border-top-right-radius: 90px;
   margin-top: 100px;
   width: 20%;
@@ -32,14 +32,22 @@
   margin-right: 10px;
 }
 
-nav li:hover{
+nav a:hover {
   color: #FFBD3A;
+  font-weight: bold;
+} 
+nav a:hover path{
+  fill: #FFBD3A;
+} 
+nav a:active path {
+  font-weight: bold;
+  color: #01F0D1;
+  fill: #01F0D1;
 }
-nav li:active{
+nav a:active {
   font-weight: bold;
   color: #01F0D1;
 }
-
 nav ul  {
   display: flex;
   justify-content: space-between;
@@ -54,16 +62,15 @@ nav button  {
 
 nav li {
   list-style: none;
-  padding: 2em 0;
+  padding: 1.5em 0;
   margin-left: 5%;
 }
 
-.btn-second-little{
+.btn-second-little {
+  -webkit-appearance: none !important;
   color: #00BCA0;
-  font-weight: bold;
-  padding: 10px 15px;
+  padding: 8px 15px;
   margin-top: 50px;
-  font-style: normal;
   font-weight: bold;
   background-color: transparent;
   border: solid 1px #00BCA0;
