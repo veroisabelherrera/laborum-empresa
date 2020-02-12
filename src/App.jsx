@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import LoginScreen from './assets/components/login/LoginScreen';
-// import Sidebar from './assets/components/defaultComponents/Sidebar';
+// import Home from './assets/views/Home';
 
 
 function App() {

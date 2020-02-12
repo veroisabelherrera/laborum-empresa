@@ -4,7 +4,7 @@
 }
 
 .sidebar {
-  
+  z-index: 1000;
   font-family: Mada;
   font-style: normal;
   font-weight: 500;
@@ -22,10 +22,10 @@
   margin-top: 100px;
   width: 20%;
 }
-.logo{
+/* .logo{
   border: solid 1px red;
   margin: 40px;
-}
+} */
 .star-icon {
   height: 14px;
   width: auto;
@@ -40,8 +40,6 @@ nav a:hover path{
   fill: #FFBD3A;
 } 
 nav a:active path {
-  font-weight: bold;
-  color: #01F0D1;
   fill: #01F0D1;
 }
 nav a:active {
@@ -53,12 +51,12 @@ nav ul  {
   justify-content: space-between;
   flex-direction: column;
 }
-nav button  {
+/* nav button  {
   align-content: center;
   margin-top: 15%;
   margin-left: 20%;
 
-}
+} */
 
 nav li {
   list-style: none;
@@ -75,6 +73,9 @@ nav li {
   background-color: transparent;
   border: solid 1px #00BCA0;
   border-radius: 5px;
+  align-content: center;
+  margin-top: 15%;
+  margin-left: 20%;
 }
 
 .btn-second-little:hover{
