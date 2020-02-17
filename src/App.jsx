@@ -10,9 +10,10 @@ function App() {
 
   return (
     <div className="App">
-      { !user && <LoginScreen /> }
+      {/* { !user && <LoginScreen /> }
 
-      { user && <Home /> }
+      { user && <Home /> } */}
+      < Jobs />
     </div>
   );
 }
