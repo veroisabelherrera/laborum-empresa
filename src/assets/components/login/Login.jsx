@@ -20,7 +20,7 @@ export default () => {
 
   return (
     <div>
-      {user && <button type="button" onClick={logout}>Cerrar sesión</button>}
+      {user && <button type="button" className="btn-logout" onClick={logout}>Cerrar sesión</button>}
       {
         !user
         && (

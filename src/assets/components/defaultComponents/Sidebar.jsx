@@ -1,7 +1,14 @@
 import React from 'react';
 import './Sidebar.css';
+import 'firebase/auth';
+import { useFirebaseApp } from 'reactfire';
 
 function Sidebar() {
+  const firebase = useFirebaseApp();
+  const logout = async () => {
+    await firebase.auth().signOut();
+  };
+
   return (
     <section>
       <div className="sidebar col-2">
@@ -50,6 +57,7 @@ function Sidebar() {
                 Postulantes
               </a>
             </li>
+            <button type="button" className="btn-logout" onClick={logout}>Cerrar sesión</button>
           </ul>
         </nav>
       </div>
