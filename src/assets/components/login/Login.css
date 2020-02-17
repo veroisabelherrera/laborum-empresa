@@ -1,8 +1,8 @@
 
-.btnLogin = {
+.btnLogin  {
     background: #525252;
-    border: 0;
-    borderRadius: 25px;
+    border: 0,
+    borderRadius: 25px
     color: #525252;
     fontFamily: Ubuntu;
     fontSize: 18px;
@@ -14,7 +14,7 @@
 }
 
 
-.inputLogin = {
+.inputLogin  {
     width: 350px;
     height: 30px;
     marginTop : 4%;
