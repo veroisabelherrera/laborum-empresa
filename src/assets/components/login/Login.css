@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Mada:400,500,600,700&display=swap');
+
+.login-screen {
+    display: flex;
+}
+
+.login-box-left {
+    width: 35%;
+}
+
+.login-logo {
+    margin-top: 20%;
+}
+
+.login-h1 {
+    color: #8CAFAE;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 95px;
+    text-align: left;
+    width: 277px;
+}
+
+.login-h3 {
+    color: #2A303A;
+    font-size: 21px;
+    font-weight: 600;
+    margin-left: 95px;
+    text-align: left;
+    width: 277px;
+}
+
+h5 {
+    color: #2A303A;
+    font-size: 16px;
+    margin-left: 95px;
+    text-align: left;
+    width: 277px;
+}
+
+.input-login {
+    background: #FFFFFF;
+    border: 1px solid #9DC5BB;
+    border-radius: 5px;
+    margin-left: 95px;
+    padding: 10px;
+    width: 260px;
+
+    font-family: Mada;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    display: flex;
+    color: #ACB3B3;
+}
+
+.section-6, .section-7 {
+    display: flex;
+    width: 277px;
+    margin-left: 95px;
+}
+
+.h6 {
+    color: #2A303A;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    margin-right: auto;
+}
+
+.link-login {
+    color: #C78D00;
+}
+
+.btn-login {
+    background: #00BCA0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 95px;
+    width: 265px;
+
+    font-family: Mada;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+.login-box-right {
+    background: #EBFAF4;
+    height: 765px;
+    top: 0px;
+    width: 65%;
+}
+
+.login-photo {
+    height: 765px;
+    top: 0px;
+}
