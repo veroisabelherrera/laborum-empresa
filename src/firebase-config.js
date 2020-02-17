@@ -1,6 +1,7 @@
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/database';
+
 firebase.initializeApp({
   apiKey: 'AIzaSyCLA_dSSlsWUmaV6w7nJil8RiwdM2AD5uQ',
   authDomain: 'laborum-scl011.firebaseapp.com',
