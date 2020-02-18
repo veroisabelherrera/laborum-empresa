@@ -3,17 +3,17 @@ import './App.css';
 import LoginScreen from './assets/components/login/LoginScreen';
 import Home from './assets/views/Home';
 import { useUser } from 'reactfire';
-import Jobs from './assets/components/gestionAvisos/avisos'
+import JobsView from './assets/components/gestionAvisos/Avisos';
 
 function App() {
   const user = useUser();
 
   return (
     <div className="App">
-      {/* { !user && <LoginScreen /> }
+      { !user && <LoginScreen /> }
 
-      { user && <Home /> } */}
-      < Jobs />
+      { user && <Home /> }
+      {/* < JobsView /> */}
     </div>
   );
 }
