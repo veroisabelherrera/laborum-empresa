@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Sidebar.css';
 import 'firebase/auth';
 import { useFirebaseApp } from 'reactfire';
@@ -10,11 +11,11 @@ function Sidebar() {
   };
 
   return (
-    <section>
-      <div className="sidebar col-2">
+    <section className="col-3">
+      <div className="sidebar ">
         <nav>
           <button type="button" className="btn-second-little">
-            Crea un Nuevo Aviso
+            <Link to="/crear-aviso">Crea un Nuevo Aviso</Link>
           </button>
           <ul>
             <li>
