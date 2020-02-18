@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Mada:400,500,600,700&display=swap');
 
+<<<<<<< HEAD
 .login-screen {
     display: flex;
 }
@@ -39,6 +40,28 @@ h5 {
 }
 
 .input-login {
+=======
+.btnLogin  {
+    background: #525252;
+    border: 0,
+    borderRadius: 25px
+    color: #525252;
+    fontFamily: Ubuntu;
+    fontSize: 18px;
+    fontWeight: bold;
+    marginTop: 15%;
+    padding: 8px 0;
+    textAlign: center;
+    width: 180px;
+}
+
+
+.inputLogin  {
+    width: 350px;
+    height: 30px;
+    marginTop : 4%;
+    borderRadius: 15px;
+>>>>>>> a822cc426062c38c8c6db5f30188e1041819f6e7
     background: #FFFFFF;
     border: 1px solid #9DC5BB;
     border-radius: 5px;
