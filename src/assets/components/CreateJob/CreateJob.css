@@ -1,0 +1,36 @@
+.first-section {
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  font-size: 20px;
+  color: #acb3b3;
+	font-weight: normal;
+	margin-bottom: -1px;
+}
+.field-description {
+  font-size: 12px;
+  color: #acb3b3;
+  font-weight: 600;
+}
+
+.input-field {
+  background: #ffffff;
+  border: 1px solid #cef8ed;
+	border-radius: 6px;
+	font-size: 18px;
+}
+
+.input-field-area {
+	background: #ffffff;
+  border: 1px solid #cef8ed;
+	border-radius: 6px;
+	font-size: 18px;
+	height: 125px;
+}
+
+.form-aviso {
+	background: #FFFFFF;
+border-radius: 6px 6px 0px 0px;
+padding-left: 20px;
+}
