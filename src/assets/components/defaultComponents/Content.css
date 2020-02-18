@@ -1,0 +1,10 @@
+.container{
+    border: 1px solid black;
+    height: 530px;
+    padding: 10px 20px;
+    float: right;
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
