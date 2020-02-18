@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
+import { useUser } from 'reactfire';
 import LoginScreen from './assets/components/login/LoginScreen';
 import Home from './assets/views/Home';
-import { useUser } from 'reactfire';
 
 function App() {
   const user = useUser();
