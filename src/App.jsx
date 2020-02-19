@@ -18,7 +18,7 @@ function App() {
           <Route exact path="/crear-aviso" component={AddjobForm} />
         </Switch>
       </BrowserRouter>
-      
+
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import Login from './Login';
 import './Login.css';
-import logoae from './logo-ae.png';
-import imglogin from './img-login.png';
+import logoae from '../../img/logo-ae.png';
+import Select from './Login-RightScreen';
 
 function LoginScreen() {
   return (
@@ -19,7 +19,7 @@ function LoginScreen() {
         </div>
       </div>
       <div className="login-box-right">
-        <img src={imglogin} className="login-photo" alt="0" />
+        <Select />
       </div>
     </div>
   );
