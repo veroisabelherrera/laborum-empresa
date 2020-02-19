@@ -7,11 +7,11 @@ const ContainerInfo = () => {
     <section className="content col-9">
 			<div className="col-12">
 			<div className="col-8">
-        <AddjobForm />
+        {/* <AddjobForm /> */}
       </div>
-      <div className="avisos-frecuentes col-4">
+      {/* <div className="avisos-frecuentes col-4">
 				<p>Avisos frecuentes</p>
-			</div>
+			</div> */}
 			</div>
       
     </section>

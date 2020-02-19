@@ -1,11 +1,11 @@
 import React from 'react';
-import './Footer.css';
+// import './Footer.css';
 
 const Footer = () => {
   return (
     <footer className="container_footer col-10">
       <div className="text_footer">
-        <p>©2020 Powered by Hiring Room, todos los derechos reservados.</p>
+        {/* <p>©2020 Powered by Hiring Room, todos los derechos reservados.</p> */}
       </div>
       <div className="icons_footer">
         <svg
