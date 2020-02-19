@@ -1,0 +1,23 @@
+const initialStateJob = {
+  jobName: '',
+  beginDate: '',
+  rent: '',
+  webSite: '',
+  region: '',
+  countryState: '',
+  city: '',
+  workDay: '',
+  inclusion: '',
+  contractType: '',
+  benefits: '',
+  jobDescription: '',
+  profession: '',
+  minExperience: '',
+  toolManagement: '',
+  expectations: '',
+  question1: '',
+  typeAnswer: '',
+  startDate: '',
+  endDate: '',
+};
+export default initialStateJob;
