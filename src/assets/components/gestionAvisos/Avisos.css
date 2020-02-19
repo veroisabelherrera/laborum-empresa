@@ -23,7 +23,7 @@
     color: #ffffff;
     height: 27px;
     width: 120px;
-    margin: 20px 21px 0px 137px;
+    margin: 20px 21px 0px 147px;
     text-align: center;
     border: none;
     pointer-events: none;
@@ -34,6 +34,7 @@
     font-size: 14px;
     margin-left: 20px;
     margin-top: 40px;
+
 
 }
 .job-description{
@@ -50,15 +51,18 @@
     font-size: 12px;
     line-height: 16px;
 
+
 }
 .logoSize{
     position: absolute;
     margin: 20px 20px;
 
+
 }
 .clockIcon .briefcaseIcon{
     width: 10px;
     height: 10px;
+
 }
 
 .iconPlace{
@@ -67,22 +71,23 @@
     flex-direction: row;
     justify-content: space-around;
 
+
 }
 .iconLocation{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 80px;
+    width: 100px;
+    margin: 0;
+
 
 }
 .star-icon2:active path {
     fill: #FFBD3A;
   }
 .star-icon2{
-    padding: 5px;
-}
-  .star-icon2{
+    margin: 8px;
     width:21px;
     height:20px; 
 
@@ -101,18 +106,17 @@
     flex-direction: row;
     justify-content: flex-start ;
     align-items: center;
-    scroll-padding-right: 8px;
     padding-bottom: 20px;
-    width: 80px;
-
+    width: 85%;
 }
 
 .seeMore{
     border: none;
     color: none;
-    padding: 0px;
-    margin: 0px 0px 20px 252px;
-    justify-content: space-around;
-    align-items: flex-end;
-    top: 10px;
+    padding: transparent;
+    margin:0 0 0 145px;
+    background-color: white;
 }
+/* .seeMore:hover{
+    background-color: blue;
+} */

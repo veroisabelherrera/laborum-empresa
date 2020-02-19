@@ -62,10 +62,9 @@ function JobsView() {
               <button className="trash" onClick={() => { deleteJob(Jobs.id) }}><img
                 src={trash}
                 alt="Eliminar" /></button>
-            </div>
             <button className="seeMore">
               <img src={seemore} alt="Ver más" /></button>
-
+            </div>
           </div>
         )}
       </section>
