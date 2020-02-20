@@ -45,7 +45,7 @@ function JobsView() {
                 <img className="clockIcon"
                   src={clock}
                   alt="reloj" />
-                <p className="job-time">Hace 23 horas</p>
+                <p className="job-time">Hace 3 horas</p>
               </div>
               <div className="iconLocation">
                 <img className="briefcaseIcon"
