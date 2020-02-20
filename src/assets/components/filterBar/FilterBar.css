@@ -1,0 +1,112 @@
+/*Contenedor Filter Bar*/
+
+.filter-bar-box {
+    border: 1px solid black;
+    height: auto;
+    padding: 10px 20px;
+    float: right;
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+}
+
+.filter-bar {
+    border: 1px solid red;
+    height: auto;
+
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*Boton Nuevo Aviso*/
+
+.btn-new-aviso {
+    -webkit-appearance: none !important;
+    background-color: #00BCA0;
+    color: #ffffff;
+    padding: 8px 15px;
+    margin-top: 50px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    align-content: center;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+.btn-new-aviso a{
+    text-decoration: none;
+    color: #00BCA0;
+  }
+  
+  .btn-new-aviso:hover{
+    background-color: #FFBD3A;
+    color: #ffffff;
+    border: 0;
+  }
+  
+  .btn-new-aviso:active {
+    background-color: #6BFFFF;
+    color:  #ffffff;
+    font-weight: bold;
+    border: 0;
+  }
+
+
+/*Select*/
+
+.content-select select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.content-select select::-ms-expand {
+    display: none;
+}
+
+.content-select{
+	width: 280px;
+	position: relative;
+}
+ 
+.content-select select{
+	display: inline-block;
+	width: 100%;
+	cursor: pointer;
+  	padding: 7px 10px;
+  	height: 40px;
+  	border: solid 1px #00BCA0;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #00BCA0;
+	font-size: 1em;
+	color: #00BCA0;
+    border-radius: 6px;
+   /* position: relative;
+    transition: all 0.25s ease;*/
+}
+ 
+.content-select select:hover{
+	background: #ffffff;
+}
+ 
+/* 
+Creando la fecha. 
+Realmente es un cuadrado que sólo tiene
+dos bordes con color y que luego se gira.
+*/
+.content-select i{
+	position: absolute;
+	right: 20px;
+	top: calc(50% - 13px);
+	width: 12px;
+	height: 12px;
+	display: block;
+	border-left: 3px solid #00BCA0;
+	border-bottom: 3px solid #00BCA0;
+	transform: rotate(-45deg);
+}

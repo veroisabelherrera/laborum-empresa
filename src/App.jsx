@@ -13,14 +13,14 @@ function App() {
 
   return (
     <div className="App">
-    <ProviderContext>
-    <BrowserRouter>
-        { !user && <LoginScreen /> }
-        { user && <Home /> }
-        {/* <Switch>
+      <ProviderContext>
+        <BrowserRouter>
+          { !user && <LoginScreen /> }
+          { user && <Home /> }
+          {/* <Switch>
           <Route exact path="/crear-aviso" component={AddjobForm} />
         </Switch> */}
-      </BrowserRouter>
+        </BrowserRouter>
       </ProviderContext>
     </div>
   );
