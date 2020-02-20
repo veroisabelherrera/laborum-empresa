@@ -1,22 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Mada:400,500,600,700&display=swap');
 
+/*LoginScreen*/
+
 .login-screen {
     display: flex;
+    background-color: #FFFFFF;
+    height: 100vh;
 }
 
 .login-box-left {
     width: 35%;
+    margin-left: 95px;
 }
 
 .login-logo {
     margin-top: 20%;
+    display: flex;
 }
 
 .login-h1 {
     color: #8CAFAE;
     font-size: 30px;
     font-weight: bold;
-    margin-left: 95px;
     text-align: left;
     width: 277px;
 }
@@ -25,7 +30,6 @@
     color: #2A303A;
     font-size: 21px;
     font-weight: 600;
-    margin-left: 95px;
     text-align: left;
     width: 277px;
 }
@@ -33,7 +37,6 @@
 h5 {
     color: #2A303A;
     font-size: 16px;
-    margin-left: 95px;
     text-align: left;
     width: 277px;
 }
@@ -42,10 +45,8 @@ h5 {
     background: #FFFFFF;
     border: 1px solid #9DC5BB;
     border-radius: 5px;
-    margin-left: 95px;
     padding: 10px;
     width: 260px;
-
     font-family: Mada;
     font-size: 12px;
     font-weight: 300;
@@ -57,7 +58,7 @@ h5 {
 .section-6, .section-7 {
     display: flex;
     width: 277px;
-    margin-left: 95px;
+    
 }
 
 .h6 {
@@ -77,7 +78,6 @@ h5 {
     border: none;
     border-radius: 5px;
     padding: 10px;
-    margin-left: 95px;
     width: 265px;
 
     font-family: Mada;
@@ -91,12 +91,144 @@ h5 {
 
 .login-box-right {
     background: #EBFAF4;
-    height: 765px;
+    height: 100vh;  
     top: 0px;
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+
+/* Login-RightScreen / Select */
+
 .login-photo {
-    height: 765px;
-    top: 0px;
+    background-image: url(../../img/img-login.png);
+    height: 100vh;   
+}
+
+.select1{
+    width: 80%;
+    height: 25%;
+    margin-left: 6%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-select{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 22px;
+    color: #2A303A;
+}
+
+.parraf-select{
+    margin-right: 40%;
+    margin-top: 2%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #5E807F;
+}
+
+.select2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+    justify-content: space-evenly;
+}
+
+.btn-select{
+    font-style: bold ;
+    font-weight: bold;
+    font-size: 16px ;
+    color: #00BCA0 ;
+    background-color: transparent;
+    border-color: transparent;
+    width: 100%;
+    text-align: left;
+}
+
+.select3{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 30%;
+}
+
+.select3-1{
+    width: 30%;
+    height: 90%;
+    margin-top: 5%;
+    margin-right:2%;
+    display: flex;
+    flex-direction: column;  
+}
+
+.links{
+    justify-content: space-around;
+    display: flex;
+    align-self: center;
+    color:#C78D00;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}    
+
+.select3-2{
+    width: 70%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4%;
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+.logoHR{
+    width: 50%;
+    margin:auto;    
+} 
+
+.text-logo{
+    display:flex;
+}
+
+.title-hr{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 28%;
+    margin-left: 5%;
+}
+
+.text-hr{
+    font-family: Mada;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: end;
+    margin-left: 9%;
+    margin-top: 0;
+}
+
+.btn-hr{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    color: #00BCA0;
+    width: 85%;
+    align-self: flex-end;
+    background-color: transparent;
+    border: 1px solid #00BCA0;
+    box-sizing: border-box;
+    border-radius: 5px;
 }

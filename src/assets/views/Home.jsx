@@ -2,20 +2,15 @@ import React from 'react';
 import Sidebar from '../components/defaultComponents/Sidebar';
 import Footer from '../components/defaultComponents/Footer';
 import Header from '../components/defaultComponents/Header';
-import ContainerInfo from '../components/defaultComponents/ContainerInfo';
+import Content from '../components/defaultComponents/Content';
+
 
 const Home = () => (
-  <div>
+  <div className="col-12">
     <Header />
     <Sidebar />
-    <div className="col-12">
-      <Sidebar />
-      <ContainerInfo />
-    </div>
-    <div className="footer-container">
-      <Footer />
-    </div>
-
+    <Content/>
+    <Footer />
   </div>
 );
 

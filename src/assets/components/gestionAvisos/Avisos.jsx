@@ -29,15 +29,15 @@ function JobsView() {
 
   return (
     <div>
-      <section className="job-box col-11">
+      <section className="job-box col-12">
         {jobs.map((Jobs) =>
           <div className="job-offer col-3">
-            <div>
+            <div className="logo-status-location">
               <img className="logoSize"
                 src={logo}
                 alt="Logo empresa" />
+              <button className="job-status">Aprobado</button>
             </div>
-            <button className="job-status">Aprobado</button>
             <p className="job-title">{Jobs.jobName}</p>
             <p className="job-description">{Jobs.jobDescription}</p>
             <div className="iconPlace">
@@ -61,8 +61,8 @@ function JobsView() {
               <button className="trash" onClick={() => { deleteJob(Jobs.id) }}><img
                 src={trash}
                 alt="Eliminar" /></button>
-            <button className="seeMore">
-              <img src={seemore} alt="Ver más" /></button>
+              <button className="seeMore">
+                <img src={seemore} alt="Ver más" /></button>
             </div>
           </div>
         )}

@@ -6,7 +6,7 @@
   font-size: 20px;
   color: #acb3b3;
 	font-weight: normal;
-	margin-bottom: -1px;
+	margin-bottom: 4px;
 }
 .field-description {
   font-size: 12px;
@@ -18,7 +18,8 @@
   background: #ffffff;
   border: 1px solid #cef8ed;
 	border-radius: 6px;
-	font-size: 18px;
+  font-size: 18px;
+  margin: 5px 0px;
 }
 
 .input-field-area {
@@ -26,11 +27,42 @@
   border: 1px solid #cef8ed;
 	border-radius: 6px;
 	font-size: 18px;
-	height: 125px;
+  height: 137px;
+  margin: 5px 0px;
 }
 
 .form-aviso {
 	background: #FFFFFF;
-border-radius: 6px 6px 0px 0px;
-padding-left: 20px;
+  border-radius: 6px 6px 0px 0px;
+  padding-left: 20px;
+}
+
+.separator {
+  border: 0.5px solid #DEE5E5;
+}
+
+.btn-section {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-section button{
+  margin: 10px;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 150px;
+  font-size: 14px;
+}
+
+.btn-next {
+  background: #00BCA0;
+  color: #FFFFFF;
+  
+}
+
+.btn-back {
+  border: 1px solid #ACB3B3;
+  border-radius: 5px;
+  color: #ACB3B3;
 }

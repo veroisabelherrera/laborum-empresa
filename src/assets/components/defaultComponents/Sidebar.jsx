@@ -12,7 +12,7 @@ function Sidebar() {
 
   return (
     <section className="col-3">
-      <div className="sidebar ">
+      <div className="sidebar col-3">
         <nav>
           <button type="button" className="btn-second-little">
             <Link to="/crear-aviso">Crea un Nuevo Aviso</Link>
