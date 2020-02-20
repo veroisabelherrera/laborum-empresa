@@ -1,7 +1,6 @@
 /*Contenedor Filter Bar*/
 
 .filter-bar-box {
-    border: 1px solid black;
     background: #ffffff;
     display: flex;
     flex-direction: column;
@@ -12,7 +11,6 @@
 }
 
 .filter-bar {
-    border: 1px solid red;
     flex-direction: row;
     display: flex;
     float: right;
