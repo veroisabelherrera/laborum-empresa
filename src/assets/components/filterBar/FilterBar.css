@@ -2,22 +2,23 @@
 
 .filter-bar-box {
     border: 1px solid black;
-    height: auto;
-    padding: 10px 20px;
-    float: right;
-    background: #E5E5E5;
+    background: #ffffff;
     display: flex;
     flex-direction: column;
+    float: right;
+    height: auto;
     margin-top: 15vh;
+    padding: 0px 20px;
 }
 
 .filter-bar {
     border: 1px solid red;
-    height: auto;
-
-    float: right;
-    display: flex;
     flex-direction: row;
+    display: flex;
+    float: right;
+    height: auto;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
 
@@ -25,34 +26,32 @@
 
 .btn-new-aviso {
     -webkit-appearance: none !important;
+    align-content: center;
     background-color: #00BCA0;
-    color: #ffffff;
-    padding: 8px 15px;
-    margin-top: 50px;
-    font-weight: bold;
     border: 0;
     border-radius: 5px;
-    align-content: center;
-    margin-top: 15%;
-    margin-left: 20%;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 15px;
 }
 
 .btn-new-aviso a{
-    text-decoration: none;
     color: #00BCA0;
+    text-decoration: none;
   }
   
   .btn-new-aviso:hover{
     background-color: #FFBD3A;
-    color: #ffffff;
     border: 0;
+    color: #ffffff;
   }
   
   .btn-new-aviso:active {
     background-color: #6BFFFF;
+    border: 0;
     color:  #ffffff;
     font-weight: bold;
-    border: 0;
   }
 
 
@@ -69,29 +68,21 @@
 }
 
 .content-select{
+    position: relative;
 	width: 280px;
-	position: relative;
 }
  
 .content-select select{
-	display: inline-block;
-	width: 100%;
-	cursor: pointer;
-  	padding: 7px 10px;
-  	height: 40px;
-  	border: solid 1px #00BCA0;
-	border-radius: 0;
-	background: #f0f0f0;
-	color: #00BCA0;
-	font-size: 1em;
-	color: #00BCA0;
+    background: #f0f0f0;
+    border: solid 1px #00BCA0;
     border-radius: 6px;
-   /* position: relative;
-    transition: all 0.25s ease;*/
-}
- 
-.content-select select:hover{
-	background: #ffffff;
+    color: #00BCA0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    height: 35px;
+  	padding: 6px 10px;
+    width: 100%;
 }
  
 /* 
@@ -100,13 +91,13 @@ Realmente es un cuadrado que sólo tiene
 dos bordes con color y que luego se gira.
 */
 .content-select i{
+    border-bottom: 3px solid #00BCA0;
+    border-left: 3px solid #00BCA0;
+    display: block;
+    height: 12px;
 	position: absolute;
 	right: 20px;
 	top: calc(50% - 13px);
-	width: 12px;
-	height: 12px;
-	display: block;
-	border-left: 3px solid #00BCA0;
-	border-bottom: 3px solid #00BCA0;
-	transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 12px;
 }

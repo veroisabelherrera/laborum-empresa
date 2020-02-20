@@ -1,10 +1,9 @@
 import React from 'react';
 import './FilterBar.css';
-import FlechaAbajo from '../../img/flechaAbajo.png';
 
 export default () => (
   <div className="col-8 filter-bar-box">
-    <div className="col-8 filter-bar">
+    <div className="filter-bar">
       <section className="container-title col-6">
         Gestión de Aviso
       </section>
@@ -17,9 +16,10 @@ export default () => (
 
     </div>
 
-    <div className="col-8 filter-bar">
-      <div className="content-select">
+    <div className="filter-bar">
+      <div className="col-8 content-select">
         <select>
+          <option>Selecciona un estado</option>
           <option>Aprobado</option>
           <option>Pendiente</option>
           <option>No Publicado</option>
